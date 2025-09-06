@@ -25,9 +25,9 @@ Green: #A4FF5E
 The following command needs to be run to install 
 
 ```bash
-omarchy-theme-install https://github.com/steel-wing/omarchy-end-of-line.git
+omarchy-theme-install https://github.com/steel-wing/omarchy-end-of-line-theme.git
 ```
 
-## Usage
-
-Once installed, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Super</kbd>+<kbd>Space</kbd>, select "End of Line" and everything should refresh automatically
+## The Grid
+For a more colorful version of the same concept, check out my other theme:
+https://github.com/steel-wing/omarchy-biodigital-jazz-theme
