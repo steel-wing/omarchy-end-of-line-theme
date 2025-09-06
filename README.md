@@ -1,4 +1,4 @@
-# Omarchy End of Line Theme
+# Omarchy - End of Line Theme
 
 A TRON-inspired theme that reflects the terminal usage in the TRON franchise.
 
@@ -25,7 +25,7 @@ Green: #A4FF5E
 The following command needs to be run to install 
 
 ```bash
-omarchy-theme-install https://github.com/steel-wing/omarchy-tron-end-of-line.git
+omarchy-theme-install https://github.com/steel-wing/omarchy-end-of-line.git
 ```
 
 ## Usage
