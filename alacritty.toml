@@ -9,16 +9,16 @@ size = 12.0
 [colors]
 [colors.primary]
 background = "#000000"
-foreground = "#EFEFEF"
+foreground = "#FFFFFF"
 dim_foreground = "#8a8a8d"
 
 [colors.cursor]
 text = "#000000"
-cursor = "#EFEFEF"
+cursor = "#FFFFFF"
 
 [colors.vi_mode_cursor]
 text = "#000000"
-cursor = "#EFEFEF"
+cursor = "#FFFFFF"
 
 [colors.selection]
 text = "CellForeground"

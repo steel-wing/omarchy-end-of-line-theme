@@ -13,13 +13,13 @@ return {
     local Shade = require('nightfox.lib.shade')
     local c = require('nightfox.lib.color')
 
-    local matte_black_palette = {
-      -- Base "Matte Black" Palette Overrides
-      bg0 = "#0D0D0D", bg1 = "#121212", bg2 = "#1E1E1E", bg3 = "#2C2C2C", bg4 = "#333333",
-      fg0 = "#FFFFFF", fg1 = "#BEBEBE", fg2 = "#BEBEBE", fg3 = "#8A8A8D",
+    local end_of_line_palette = {
+      -- Base "End Of Line" Palette Overrides
+      bg0 = "#000000", bg1 = "#191919", bg2 = "#323232", bg3 = "#4B4B4B", bg4 = "#646464",
+      fg0 = "#FFFFFF", fg1 = "#DDDDDD", fg2 = "#BBBBBB", fg3 = "#999999",
       sel0 = "#2C2C2C",
       sel1 = c.from_hex("#2C2C2C"):blend(c.from_hex("#F59E0B"), 0.2):to_css(),
-      comment = "#333333",
+      comment = "#888888",
       red = Shade.new("#D35F5F", c.from_hex("#D35F5F"):lighten(8):to_css(), "#B91C1C"),
       orange = Shade.new("#F59E0B", "#FFC107", c.from_hex("#F59E0B"):lighten(-8):to_css()),
       yellow = Shade.new("#FFC107", c.from_hex("#FFC107"):lighten(10):to_css(), "#F59E0B"),
@@ -46,7 +46,7 @@ return {
     local final_palettes = {
       carbonfox = require('nightfox.lib.collect').deep_extend(
         require('nightfox.palette').load('carbonfox'),
-        matte_black_palette
+    end_of_line_palette
       )
     }
 
@@ -153,29 +153,29 @@ return {
     -- Lualine overrides
     local lualine_theme = {
       normal = {
-        a = { fg = matte_black_palette.bg0, bg = matte_black_palette.lualine_normal_bg, gui = "bold" },
-        b = { fg = matte_black_palette.fg1, bg = matte_black_palette.lualine_inactive_bg },
-        c = { fg = matte_black_palette.fg2, bg = matte_black_palette.lualine_inactive_bg },
+        a = { fg = end_of_line_palette.bg0, bg = end_of_line_palette.lualine_normal_bg, gui = "bold" },
+        b = { fg = end_of_line_palette.fg1, bg = end_of_line_palette.lualine_inactive_bg },
+        c = { fg = end_of_line_palette.fg2, bg = end_of_line_palette.lualine_inactive_bg },
       },
       insert = {
-        a = { fg = matte_black_palette.bg0, bg = matte_black_palette.lualine_insert_bg, gui = "bold" },
-        b = { fg = matte_black_palette.fg1, bg = matte_black_palette.lualine_inactive_bg },
-        c = { fg = matte_black_palette.fg2, bg = matte_black_palette.lualine_inactive_bg },
+        a = { fg = end_of_line_palette.bg0, bg = end_of_line_palette.lualine_insert_bg, gui = "bold" },
+        b = { fg = end_of_line_palette.fg1, bg = end_of_line_palette.lualine_inactive_bg },
+        c = { fg = end_of_line_palette.fg2, bg = end_of_line_palette.lualine_inactive_bg },
       },
       visual = {
-        a = { fg = matte_black_palette.bg0, bg = matte_black_palette.lualine_visual_bg, gui = "bold" },
-        b = { fg = matte_black_palette.fg1, bg = matte_black_palette.lualine_inactive_bg },
-        c = { fg = matte_black_palette.fg2, bg = matte_black_palette.lualine_inactive_bg },
+        a = { fg = end_of_line_palette.bg0, bg = end_of_line_palette.lualine_visual_bg, gui = "bold" },
+        b = { fg = end_of_line_palette.fg1, bg = end_of_line_palette.lualine_inactive_bg },
+        c = { fg = end_of_line_palette.fg2, bg = end_of_line_palette.lualine_inactive_bg },
       },
       command = {
-        a = { fg = matte_black_palette.bg0, bg = matte_black_palette.lualine_command_bg, gui = "bold" },
-        b = { fg = matte_black_palette.fg1, bg = matte_black_palette.lualine_inactive_bg },
-        c = { fg = matte_black_palette.fg2, bg = matte_black_palette.lualine_inactive_bg },
+        a = { fg = end_of_line_palette.bg0, bg = end_of_line_palette.lualine_command_bg, gui = "bold" },
+        b = { fg = end_of_line_palette.fg1, bg = end_of_line_palette.lualine_inactive_bg },
+        c = { fg = end_of_line_palette.fg2, bg = end_of_line_palette.lualine_inactive_bg },
       },
       inactive = {
-        a = { fg = matte_black_palette.fg3, bg = matte_black_palette.lualine_inactive_bg },
-        b = { fg = matte_black_palette.fg3, bg = matte_black_palette.lualine_inactive_bg },
-        c = { fg = matte_black_palette.comment, bg = matte_black_palette.lualine_inactive_bg },
+        a = { fg = end_of_line_palette.fg3, bg = end_of_line_palette.lualine_inactive_bg },
+        b = { fg = end_of_line_palette.fg3, bg = end_of_line_palette.lualine_inactive_bg },
+        c = { fg = end_of_line_palette.comment, bg = end_of_line_palette.lualine_inactive_bg },
       },
     }
 
