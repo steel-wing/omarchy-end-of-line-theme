@@ -12,6 +12,7 @@ White: #FFFFFF
 Black: #000000
 
 Grey_Light: #9A9A9A
+Grey_Mid: #333333
 Grey_Dark: #121212
 
 Red_Light: #FF000B
