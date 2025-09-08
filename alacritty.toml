@@ -23,7 +23,7 @@ cursor = "#FFFFFF"
 
 [colors.selection]
 text = "CellForeground"
-background = "#333333"
+background = "#888888"
 
 [colors.search.matches]
 foreground = "#FFFFFF"
@@ -53,10 +53,10 @@ yellow = "#F48323"
 blue = "#38ECFF"
 magenta = "#B36DE8"
 cyan = "#38ECFF"
-white = "#9A9A9A"
+white = "#FFFFFF"
 
 [colors.bright]
-black = "#9A9A9A"
+black = "#333333"
 red = "#FF000B"
 green = "#A4FF5E"
 yellow = "#F48323"

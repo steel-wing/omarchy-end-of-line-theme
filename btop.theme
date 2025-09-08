@@ -66,21 +66,18 @@ theme[cached_mid]="#38ECFF"
 theme[cached_end]="#009AFF"
 
 # Mem/Disk available meter
-theme[available_start]="#FFFFFF"
-theme[available_mid]="#A4FF5E"
+theme[available_start]="#A4FF5E"
 theme[available_end]="#439441"
 
 # Mem/Disk used meter
-theme[used_start]="#FFFFFF"
-theme[used_mid]="#38ECFF"
-theme[used_end]="#009AFF"
+theme[used_start]="#F48323"
+theme[used_mid]="#FFFFFF"
+theme[used_end]="#FFDD00"
 
 # Download graph colors
-theme[download_start]="#FFFFFF"
-theme[download_mid]="#B36DE8"
+theme[download_start]="#B36DE8"
 theme[download_end]="#593987"
 
 # Upload graph colors
-theme[upload_start]="#FFFFFF"
-theme[upload_mid]="#B36DE8"
-theme[upload_end]="#593987"
+theme[upload_start]="#FF000B"
+theme[upload_end]="#750000"
