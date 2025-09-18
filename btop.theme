@@ -10,10 +10,10 @@
 theme[main_bg]=""
 
 # Main text color
-theme[main_fg]="#EEEEEE"
+theme[main_fg]="#FFFFFF"
 
 # Title color for boxes
-theme[title]="#9A9A9A"
+theme[title]="#FFFFFF"
 
 # Highlight color for keyboard shortcuts
 theme[hi_fg]="#319DB5"
@@ -67,11 +67,10 @@ theme[cached_end]="#319DB5"
 
 # Mem/Disk available meter
 theme[available_start]="#FFFFFF"
-theme[available_end]="#9A9A9A"
+theme[available_end]="#333333"
 
 # Mem/Disk used meter
-theme[used_start]="#FFFFFF"
-theme[used_mid]="#F48323"
+theme[used_start]="#F48323"
 theme[used_end]="#AB5626"
 
 # Download graph colors

@@ -21,7 +21,7 @@ Cyan_Dark: #319DB5
 
 ## Installation
 
-The following command needs to be run to install 
+The following command needs to be run to install.
 
 ```bash
 omarchy-theme-install https://github.com/steel-wing/omarchy-end-of-line-theme.git
