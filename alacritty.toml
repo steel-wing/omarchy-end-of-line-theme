@@ -47,28 +47,28 @@ background = "#000000"
 
 [colors.normal]
 black = "#121212"
-red = "#FF000B"
-green = "#A4FF5E"
-yellow = "#F48323"
-blue = "#38ECFF"
-magenta = "#B36DE8"
-cyan = "#38ECFF"
+red = "#FFFFFF"
+green = "#FFFFFF"
+yellow = "#FFFFFF"
+blue = "#FFFFFF"
+magenta = "#FFFFFF"
+cyan = "#FFFFFF"
 white = "#FFFFFF"
 
 [colors.bright]
 black = "#333333"
-red = "#FF000B"
-green = "#A4FF5E"
-yellow = "#F48323"
-blue = "#38ECFF"
-magenta = "#B36DE8"
-cyan = "#38ECFF"
-white = "#9A9A9A"
+red = "#FFFFFF"
+green = "#FFFFFF"
+yellow = "#FFFFFF"
+blue = "#FFFFFF"
+magenta = "#FFFFFF"
+cyan = "#FFFFFF"
+white = "#FFFFFF"
 
 [[colors.indexed_colors]]
 index = 16
-color = "#F48323"
+color = "#FFFFFF"
 
 [[colors.indexed_colors]]
 index = 17
-color = "#B36DE8"
+color = "#FFFFFF"

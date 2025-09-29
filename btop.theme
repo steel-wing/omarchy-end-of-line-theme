@@ -1,31 +1,45 @@
-# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
-# example for white: "#FFFFFF", "#ff" or "255 255 255".
+# Btop Ash Theme
 
-# All graphs and meters can be gradients
-# For single color graphs leave "mid" and "end" variable empty.
-# Use "start" and "end" variables for two color gradient
-# Use "start", "mid" and "end" for three color gradient
+# All colors must be in format "#RRGGBB" or a valid color name.
+# For a list of color names, please see `man 5 terminfo`.
+
+# Colors should be a shade of gray.
+theme_color[background]="#000000"
+theme_color[foreground]="#000000"
+theme_color[inactive_fg]="#FFFFFF"
+theme_color[selected_bg]="#333333"
+theme_color[selected_fg]="#FFFFFF"
+theme_color[highlight_bg]="#FFFFFF"
+theme_color[highlight_fg]="#FFFFFF"
+theme_color[gradient_color1]="#FFFFFF"
+theme_color[gradient_color2]="#FFFFFF"
 
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]=""
+theme[main_bg]="#000000"
 
 # Main text color
 theme[main_fg]="#FFFFFF"
 
-# Title color for boxes
+# Title color for boxesc6c6c6
 theme[title]="#FFFFFF"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#319DB5"
+theme[hi_fg]="#999999"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#319DB5"
+theme[selected_bg]="#333333"
 
 # Foreground color of selected item in processes box
 theme[selected_fg]="#FFFFFF"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#333333"
+
+# Color of text apperaing on top of graphs
+theme[graph_text] ="#FFFFFF"
+
+# Background color of the percentage meters
+theme[meter_bg]="#000000"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
 theme[proc_misc]="#FFFFFF"
@@ -47,38 +61,40 @@ theme[div_line]="#FFFFFF"
 
 # Temperature graph colors
 theme[temp_start]="#FFFFFF"
-theme[temp_mid]="#F48323"
-theme[temp_end]="#AB5626"
+theme[temp_mid]="#FFFFFF"
+theme[temp_end]="#FFFFFF"
 
 # CPU graph colors
 theme[cpu_start]="#FFFFFF"
-theme[cpu_mid]="#F48323"
-theme[cpu_end]="#AB5626"
+theme[cpu_mid]="#FFFFFF"
+theme[cpu_end]="#FFFFFF"
 
 # Mem/Disk free meter
 theme[free_start]="#FFFFFF"
-theme[free_mid]="#38ECFF"
-theme[free_end]="#319DB5"
+theme[free_mid]="#FFFFFF"
+theme[free_end]="#FFFFFF"
 
 # Mem/Disk cached meter
 theme[cached_start]="#FFFFFF"
-theme[cached_mid]="#38ECFF"
-theme[cached_end]="#319DB5"
+theme[cached_mid]="#FFFFFF"
+theme[cached_end]="#FFFFFF"
 
 # Mem/Disk available meter
 theme[available_start]="#FFFFFF"
-theme[available_end]="#333333"
+theme[available_mid]="#FFFFFF"
+theme[available_end]="#FFFFFF"
 
 # Mem/Disk used meter
-theme[used_start]="#F48323"
-theme[used_end]="#AB5626"
+theme[used_start]="#FFFFFF"
+theme[used_mid]="#FFFFFF"
+theme[used_end]="#FFFFFF"
 
 # Download graph colors
 theme[download_start]="#FFFFFF"
-theme[download_mid]="#38ECFF"
-theme[download_end]="#319DB5"
+theme[download_mid]="#FFFFFF"
+theme[download_end]="#FFFFFF"
 
 # Upload graph colors
 theme[upload_start]="#FFFFFF"
-theme[upload_mid]="#F48323"
-theme[upload_end]="#AB5626"
+theme[upload_mid]="#FFFFFF"
+theme[upload_end]="#FFFFFF"
