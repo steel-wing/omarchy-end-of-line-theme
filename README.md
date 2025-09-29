@@ -7,10 +7,15 @@ A TRON-inspired theme that reflects the terminal usage on the ENCOM computers in
 This is the setup on my ASUS Zenbook Duo.
 
 # Color Scheme
-White: #FFFFFF
-Light Grey: #9A9A9A
-Dark Grey: #333333
-Black: #000000
+
+White: <a href='#'><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/FFFFFF'/></a> #FFFFFF
+
+Light Grey: <a href='#'><img valign='middle' alt='#9A9A9A' src='https://readme-swatches.vercel.app/9A9A9A'/></a> #9A9A9A
+
+Dark Grey: <a href='#'><img valign='middle' alt='#333333' src='https://readme-swatches.vercel.app/333333'/></a> #333333
+
+Black: <a href='#'><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000'/></a> #000000
+
 
 ## Installation
 The following command needs to be run to install.
@@ -20,5 +25,4 @@ omarchy-theme-install https://github.com/steel-wing/omarchy-end-of-line-theme.gi
 ```
 
 ## The Grid
-For a more colorful version of the same concept, check out my other theme:
-https://github.com/steel-wing/omarchy-biodigital-jazz-theme
+For a more colorful version of the same concept, check out my other theme: [Biodigital Jazz](https://github.com/steel-wing/omarchy-biodigital-jazz-theme)
