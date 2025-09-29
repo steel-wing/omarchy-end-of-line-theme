@@ -9,15 +9,8 @@ A TRON-inspired theme that reflects the terminal usage in the TRON franchise.
 
 White: #FFFFFF
 Light Grey: #9A9A9A
-Medium Grey: #333333
-Dark Grey: #121212
+Dark Grey: #333333
 Black: #000000
-
-Orange_Light: #F48323
-Orange_Dark: #AB5626
-
-Cyan_Light: #38ECFF
-Cyan_Dark: #319DB5
 
 ## Installation
 
