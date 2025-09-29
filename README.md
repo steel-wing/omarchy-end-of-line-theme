@@ -3,7 +3,8 @@
 A TRON-inspired theme that reflects the terminal usage in the TRON franchise.
 
 ## Preview
-
+<img width="1921" height="2401" alt="tron setup" src="https://github.com/user-attachments/assets/5493919b-ba05-4bca-bbe6-e215625f6339" />
+This is the setup on my ASUS Zenbook Duo
 
 # Color Scheme
 
