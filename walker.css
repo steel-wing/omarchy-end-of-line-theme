@@ -5,3 +5,14 @@
 @define-color foreground #FFFFFF;
 @define-color background #000000;
 
+
+window .normal-icons,
+window .large-icons,
+window .item-image,
+window .symbols {
+    -gtk-icon-size: 0;
+    min-width: 0;
+    min-height: 0;
+    padding: 1;
+    margin: 1;
+}
